@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  margin-top: -21px;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color:purple;
+}
+h1,h2{
+  display: flex;
+  justify-content: center;
+}
+
+.followers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+  img{
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+
+
+.cards {
+  border:1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(241,99,14,88);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+
+.profile-container
+{
+  border: 1px solid rgba(0, 0, 0, 0.9);
+  background: rgba(241,99,14,88);
+  border-radius: 10px;
+  width: 23.9%;
+  margin: 0 auto;
+}
+img{
+  width: 375px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
